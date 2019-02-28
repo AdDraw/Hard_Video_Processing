@@ -10,3 +10,8 @@ It's a version that won't be revised anymore because i have lost access to the d
 
 Alongside core files of the IP included are: .ufc file, Microblaze configuration files and code written in C for MicroBlaze.
 
+This embedded system in completion performs a simply erosion algorithm on a 128x128 pixel matrix. 
+Video format is VGA in a 640x480@75Hz resolution.
+Input and output video codecs are properly programmed through I2C bus.
+Data is stored in an internal BRAM.
+
