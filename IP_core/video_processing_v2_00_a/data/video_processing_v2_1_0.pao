@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          C:/Designs/Inzynierka_Adam_HEHE/Inzynierka_Adam.3/pcores/video_processing_v2_00_a/data/video_processing_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sun Jan 13 11:03:40 2019 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib video_processing_v2_00_a user_logic verilog
+lib video_processing_v2_00_a video_processing vhdl

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Designs/Inzynierka_Adam_15_01/Inzynierka_Adam_15_01/Inzynierka_Adamv3/pcores/video_processing_v2_00_a/devl/projnav/symulacjion_VIDEO_PATH_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="symulacjion_VIDEO_PATH" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="76" />
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/rst_Chrontel_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_Chrontel_o</obj_property>
+      <obj_property name="ObjectShortName">rst_Chrontel_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/dvi_d_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dvi_d_o[0:11]</obj_property>
+      <obj_property name="ObjectShortName">dvi_d_o[0:11]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/x_clk_p_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x_clk_p_o</obj_property>
+      <obj_property name="ObjectShortName">x_clk_p_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/x_clk_n_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x_clk_n_o</obj_property>
+      <obj_property name="ObjectShortName">x_clk_n_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/dvi_de_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dvi_de_o</obj_property>
+      <obj_property name="ObjectShortName">dvi_de_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/dvi_hsync_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dvi_hsync_o</obj_property>
+      <obj_property name="ObjectShortName">dvi_hsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/dvi_vsync_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dvi_vsync_o</obj_property>
+      <obj_property name="ObjectShortName">dvi_vsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/column_max" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">column_max[10:0]</obj_property>
+      <obj_property name="ObjectShortName">column_max[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/line_max" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">line_max[10:0]</obj_property>
+      <obj_property name="ObjectShortName">line_max[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/ad_dataclk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_dataclk_i</obj_property>
+      <obj_property name="ObjectShortName">ad_dataclk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/ad_hsync_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_hsync_i</obj_property>
+      <obj_property name="ObjectShortName">ad_hsync_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/ad_vsync_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_vsync_i</obj_property>
+      <obj_property name="ObjectShortName">ad_vsync_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/ad_red_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_red_i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">ad_red_i[0:7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/ad_green_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_green_i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">ad_green_i[0:7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/ad_blue_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ad_blue_i[0:7]</obj_property>
+      <obj_property name="ObjectShortName">ad_blue_i[0:7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/Bus2IP_Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_Clk</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/Bus2IP_Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Bus2IP_Reset</obj_property>
+      <obj_property name="ObjectShortName">Bus2IP_Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/column" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">column[10:0]</obj_property>
+      <obj_property name="ObjectShortName">column[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/line" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">line[10:0]</obj_property>
+      <obj_property name="ObjectShortName">line[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/DataEnable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DataEnable</obj_property>
+      <obj_property name="ObjectShortName">DataEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/add_op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">add_op[4:0]</obj_property>
+      <obj_property name="ObjectShortName">add_op[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/pixs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pixs[23:0]</obj_property>
+      <obj_property name="ObjectShortName">pixs[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/temp_col" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">temp_col</obj_property>
+      <obj_property name="ObjectShortName">temp_col</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/video_ACK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">video_ACK</obj_property>
+      <obj_property name="ObjectShortName">video_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/clka_bram12_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clka_bram12_o</obj_property>
+      <obj_property name="ObjectShortName">clka_bram12_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/vld_video_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_video_o</obj_property>
+      <obj_property name="ObjectShortName">vld_video_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/rdy_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rdy_i</obj_property>
+      <obj_property name="ObjectShortName">rdy_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/vld_frame" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_frame</obj_property>
+      <obj_property name="ObjectShortName">vld_frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/line_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">line_counter[10:0]</obj_property>
+      <obj_property name="ObjectShortName">line_counter[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/column_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">column_counter[10:0]</obj_property>
+      <obj_property name="ObjectShortName">column_counter[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/wea_bram12_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wea_bram12_o</obj_property>
+      <obj_property name="ObjectShortName">wea_bram12_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/addra_bram12_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addra_bram12_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_bram12_o[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/dina_bram12_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dina_bram12_o[383:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_bram12_o[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/row2mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">row2mem[383:0]</obj_property>
+      <obj_property name="ObjectShortName">row2mem[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/INPUT_VID/vld_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_o</obj_property>
+      <obj_property name="ObjectShortName">vld_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/en_read_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en_read_i</obj_property>
+      <obj_property name="ObjectShortName">en_read_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/clkb_bram12_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkb_bram12_o</obj_property>
+      <obj_property name="ObjectShortName">clkb_bram12_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/empty_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty_i</obj_property>
+      <obj_property name="ObjectShortName">empty_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/clka_bram3_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clka_bram3_o</obj_property>
+      <obj_property name="ObjectShortName">clka_bram3_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/dina_bram3_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dina_bram3_o[383:0]</obj_property>
+      <obj_property name="ObjectShortName">dina_bram3_o[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/element_struct" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">element_struct[26:0]</obj_property>
+      <obj_property name="ObjectShortName">element_struct[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/enable_processing" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_processing</obj_property>
+      <obj_property name="ObjectShortName">enable_processing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/WRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WRITE</obj_property>
+      <obj_property name="ObjectShortName">WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/processed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">processed[383:0]</obj_property>
+      <obj_property name="ObjectShortName">processed[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/vld_mem_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_mem_o</obj_property>
+      <obj_property name="ObjectShortName">vld_mem_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/rdy_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rdy_o</obj_property>
+      <obj_property name="ObjectShortName">rdy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/addrb_bram12_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrb_bram12_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb_bram12_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/full_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full_o</obj_property>
+      <obj_property name="ObjectShortName">full_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/wea_bram3_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wea_bram3_o</obj_property>
+      <obj_property name="ObjectShortName">wea_bram3_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/addra_bram3_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addra_bram3_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_bram3_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/vld_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vld_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/full_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">full_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">full_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/start_counter" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start_counter</obj_property>
+      <obj_property name="ObjectShortName">start_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/read" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/doutb_bram12_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">doutb_bram12_i[383:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb_bram12_i[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/row2PE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">row2PE[2:0,389:0]</obj_property>
+      <obj_property name="ObjectShortName">row2PE[2:0,389:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/processing_erosion/write_counter" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_counter</obj_property>
+      <obj_property name="ObjectShortName">write_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/clk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/rst_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/doutb_bram3_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">doutb_bram3_i[383:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb_bram3_i[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/clkb_bram3_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkb_bram3_o</obj_property>
+      <obj_property name="ObjectShortName">clkb_bram3_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/full_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full_i</obj_property>
+      <obj_property name="ObjectShortName">full_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/x_clk_p_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x_clk_p_o</obj_property>
+      <obj_property name="ObjectShortName">x_clk_p_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/x_clk_n_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x_clk_n_o</obj_property>
+      <obj_property name="ObjectShortName">x_clk_n_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/VideoInputActive" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VideoInputActive</obj_property>
+      <obj_property name="ObjectShortName">VideoInputActive</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/addrb_bram3_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrb_bram3_o[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb_bram3_o[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/empty_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">empty_o</obj_property>
+      <obj_property name="ObjectShortName">empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/temp_col" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">temp_col</obj_property>
+      <obj_property name="ObjectShortName">temp_col</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/vga_d_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_d_o[11:0]</obj_property>
+      <obj_property name="ObjectShortName">vga_d_o[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/vga_de_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_de_o</obj_property>
+      <obj_property name="ObjectShortName">vga_de_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/vga_hsync_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_hsync_o</obj_property>
+      <obj_property name="ObjectShortName">vga_hsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/vga_vsync_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vga_vsync_o</obj_property>
+      <obj_property name="ObjectShortName">vga_vsync_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/column" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">column[10:0]</obj_property>
+      <obj_property name="ObjectShortName">column[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/line" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">line[10:0]</obj_property>
+      <obj_property name="ObjectShortName">line[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/row2display" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">row2display[383:0]</obj_property>
+      <obj_property name="ObjectShortName">row2display[383:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symulacjion_VIDEO_PATH/uut/OUTPUT_VID/shift_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_reg[383:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[383:0]</obj_property>
+   </wvobject>
+</wave_config>

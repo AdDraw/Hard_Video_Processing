@@ -1,0 +1,229 @@
+
+----------------------------------------------------------------------------
+--                            Design Analysis                             --
+----------------------------------------------------------------------------
+Analyze pcore video_processing ...
+
+
+----------------------------------------------------------------------------
+--                            Design Analysis                             --
+----------------------------------------------------------------------------
+Analyze pcore video_processing ...
+
+
+----------------------------------------------------------------------------
+--                            File Generation                             --
+----------------------------------------------------------------------------
+Creating HDL source directory ...
+Generating top peripheral VHDL template ...
+Generating stub user logic Verilog template ...
+HDL templates successfully generated ...
+Creating data directory ...
+Generating XPS inteface files ...
+WARNING:HDLParsers:3497 - Ignoring Verilog File
+   "C:/Designs/Inzynierka_Adam_HEHE/Inzynierka_Adam.3/pcores/video_processing_v2
+   _00_a/data/../hdl/verilog/user_logic.v"
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Package <proc_common_pkg> compiled.
+Package body <proc_common_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
+Entity <or_muxcy> compiled.
+Entity <or_muxcy> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Package <family_support> compiled.
+Package body <family_support> compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Entity <counter_f> compiled.
+Entity <counter_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Entity <pselect_f> compiled.
+Entity <pselect_f> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
+Entity <or_gate128> compiled.
+Entity <or_gate128> (Architecture <imp>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hd
+l/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Package <ipif_pkg> compiled.
+Package body <ipif_pkg> compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1
+_01_a/hdl/vhdl/plb_address_decoder.vhd" in Library plbv46_slave_single_v1_01_a.
+Entity <plb_address_decoder> compiled.
+Entity <plb_address_decoder> (Architecture <IMP>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1
+_01_a/hdl/vhdl/plb_slave_attachment.vhd" in Library plbv46_slave_single_v1_01_a.
+Entity <plb_slave_attachment> compiled.
+Entity <plb_slave_attachment> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1
+_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library plbv46_slave_single_v1_01_a.
+Entity <plbv46_slave_single> compiled.
+Entity <plbv46_slave_single> (Architecture <implementation>) compiled.
+Compiling vhdl file
+"C:/Designs/Inzynierka_Adam_HEHE/Inzynierka_Adam.3/pcores/video_processing_v2_00
+_a/data/../hdl/vhdl/video_processing.vhd" in Library video_processing_v2_00_a.
+Entity <video_processing> compiled.
+Entity <video_processing> (Architecture <IMP>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = video_processing
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+WARNING:EDK:3588 - Unable to delete temporary XST project file
+   C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3\pcores\video_processing_v2_
+   00_a\data\_video_processing_xst.prj : 13
+XPS interface files successfully generated ...
+Creating development directory ...
+Generating command option file ...
+Generating readme file ...
+Development misc files successfully generated ...
+Creating projnav directory ...
+Generating ProjNav support files ...
+ProjNav support files successfully generated ...
+Creating synthesis directory ...
+Generating XST synthesis support files ...
+XST synthesis support files successfully generated ...
+Creating BFM simulation XPS project directory ...
+Creating BFM simulation pcores directory ...
+Generating BFM simulation testbench pcore ...
+Creating testbench pcore video_processing_tb vhdl source directory ...
+Testbench pcore video_processing_tb vhdl source successfully generated ...
+Creating testbench pcore video_processing_tb data directory ...
+Testbench pcore video_processing_tb pao file successfully generated ...
+BFM simulation testbench pcore video_processing_tb mpd file successfully
+generated ...
+BFM simulation testbench pcore video_processing_tb successfully generated ...
+Generating BFM simulation platform hardware description file (.mhs) ...
+BFM simulation test platform successfully generated ...
+Creating BFM simulation scripts directory ...
+Generating BFM simulation script files ...
+BFM simulation script file (run.do) successfully generated ...
+BFM simulation script file (wave.do) successfully generated ...
+BFM simulation BFL script file (sample.bfl) successfully generated ...
+Generating other BFM simulation project files ...
+Custom makefile for EDK BFM simulation successfully generated ...
+Custom makefile for BFM simulation through command line successfully generated
+...
+BFM simulation README file successfully generated ...
+BFM simulation XPS project file successfully generated ...
+BFM simulation files successfully generated ...
+Creating software driver data directory ...
+Generating software driver XPS interface (mdd/tcl) files ...
+Software driver data definition file (.mdd) successfully generated ...
+Software driver data generation file (.tcl) successfully generated ...
+Creating software driver src directory ...
+Generating software driver template files ...
+Software driver compile file (Makefile) successfully generated ...
+output user slave register(s) offset to software driver header ...
+Software driver header file (.h) successfully generated ...
+Software driver source file (.c) successfully generated ...
+Software driver SelfTest file (.c) successfully generated ...
+Software driver template files successfully generated ...
+
+----------------------------------------------------------------------------
+--                              Final Report                              --
+----------------------------------------------------------------------------
+Thank you for using Create and Import Peripheral Wizard! Please find your
+peripheral hardware templates under
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a and peripheral software templates under
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/drivers/video_processing_v2_00
+_a respectively.
+
+Peripheral Summary:
+
+  top name       : video_processing
+  version        : 2.00.a
+  type           : PLB (v4.6) slave
+  features       : slave attachment
+                   user s/w registers
+
+Address Block Summary:
+
+  user logic slv : C_BASEADDR + 0x00000000
+                 : C_BASEADDR + 0x00000FFF
+
+File Summary
+
+  - HDL source -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/hdl
+  top entity     : vhdl/video_processing.vhd
+  user logic     : verilog/user_logic.v
+
+  - XPS interface -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/data
+  mpd            : video_processing_v2_1_0.mpd
+  pao            : video_processing_v2_1_0.pao
+
+  - ISE project -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/devl/projnav
+  ise project    : video_processing.xise
+  tcl script     : video_processing.tcl
+
+
+  - XST synthesis -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/devl/synthesis
+  xst script     : video_processing_xst.scr
+  xst project    : video_processing_xst.prj
+
+  - BFM simulation project -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/devl/bfmsim
+  bfm sim help   : README.txt
+  bfm platform   : bfm_system.mhs
+  xps project    : bfm_system.xmp
+  xps makefile   : bfm_sim_xps.make
+  cmd makefile   : bfm_sim_cmd.make
+  run script     : scripts/run.do
+  wave script    : scripts/wave.do
+  bfl command    : scripts/sample.bfl
+
+  - BFM simulation IP testbench -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/devl/bfmsim/pcores/video_processing_tb_v2_00_a
+  tb mpd         : data/video_processing_v2_1_0.mpd
+  tb pao         : data/video_processing_v2_1_0.pao
+  testbench      : hdl/vhdl/video_processing_tb.vhd
+
+  - Misc file -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/pcores/video_processing_v2_00_
+a/devl
+  help           : README.txt
+  option         : ipwiz.opt
+  log            : ipwiz.log
+
+  - Driver source -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/drivers/video_processing_v2_00
+_a/src
+  makefile       : Makefile
+  header         : video_processing.h
+  source         : video_processing.c
+  selftest       : video_processing_selftest.c
+
+  - Driver interface -
+C:\Designs\Inzynierka_Adam_HEHE\Inzynierka_Adam.3/drivers/video_processing_v2_00
+_a/data
+  mdd            : video_processing_v2_1_0.mdd
+  tcl            : video_processing_v2_1_0.tcl
+
+
