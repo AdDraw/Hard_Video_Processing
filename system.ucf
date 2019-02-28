@@ -1,0 +1,79 @@
+#  Generic Template
+# CLKs
+Net fpga_0_clk_1_sys_clk_pin TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+Net fpga_0_clk_1_sys_clk_pin 					LOC=AH15;
+
+Net video_processing_0_x_clk_p_o_pin TNM_NET = dvi_clk_p_pin;
+TIMESPEC TS_dvi_clk_p_pin = PERIOD dvi_clk_p_pin 63000 kHz;
+NET video_processing_0_x_clk_p_o_pin 		LOC = AL11;
+
+Net video_processing_0_x_clk_n_o_pin TNM_NET = dvi_clk_n_pin;
+TIMESPEC TS_dvi_clk_n_pin = PERIOD dvi_clk_n_pin 63000 kHz;
+NET video_processing_0_x_clk_n_o_pin 		LOC = AL10;
+
+# RST
+#  reset Microblaze'a
+Net fpga_0_rst_1_sys_rst_pin TIG;
+Net fpga_0_rst_1_sys_rst_pin 					LOC = AJ6;
+ 
+# RS232
+NET fpga_0_RS232_RX_pin 						LOC = AG15; 
+NET fpga_0_RS232_TX_pin 						LOC = AG20;
+
+# I2C
+NET video_processing_0_SCL_o_pin 			LOC = U27;
+NET video_processing_0_SDA_io_pin 			LOC = T29 |IOSTANDARD="LVCMOS25" | SLEW="FAST" | DRIVE="2";
+
+# CHRONTEL CH7301C
+NET video_processing_0_rst_Chrontel_o_pin LOC = AK6;
+NET video_processing_0_dvi_d_o_pin[0] 		LOC = AB8 ;
+NET video_processing_0_dvi_d_o_pin[1] 		LOC = AC8;
+NET video_processing_0_dvi_d_o_pin[2] 		LOC = AN12;
+NET video_processing_0_dvi_d_o_pin[3] 		LOC = AP12;
+NET video_processing_0_dvi_d_o_pin[4] 		LOC = AA9;
+NET video_processing_0_dvi_d_o_pin[5] 		LOC = AA8;
+NET video_processing_0_dvi_d_o_pin[6] 		LOC = AM13;
+NET video_processing_0_dvi_d_o_pin[7] 		LOC = AN13;
+NET video_processing_0_dvi_d_o_pin[8] 		LOC = AA10;
+NET video_processing_0_dvi_d_o_pin[9] 		LOC = AB10;
+NET video_processing_0_dvi_d_o_pin[10] 	LOC = AP14;
+NET video_processing_0_dvi_d_o_pin[11] 	LOC = AN14;
+NET video_processing_0_dvi_de_o_pin 		LOC = AE8;
+NET video_processing_0_dvi_hsync_o_pin 	LOC = AM12;
+NET video_processing_0_dvi_vsync_o_pin 	LOC = AM11;
+
+#ANALOG DEVICES AD9980
+NET video_processing_0_ad_dataclk_i_pin 	LOC = AH18;
+NET video_processing_0_ad_hsync_i_pin 		LOC = AE7 ; 
+NET "video_processing_0_ad_hsync_i_pin" 	CLOCK_DEDICATED_ROUTE = FALSE;
+NET video_processing_0_ad_vsync_i_pin 		LOC = Y6;
+##RED
+NET video_processing_0_ad_red_i_pin[7]		LOC = W11;
+NET video_processing_0_ad_red_i_pin[6]		LOC = Y11;
+NET video_processing_0_ad_red_i_pin[5]		LOC = AG6;
+NET video_processing_0_ad_red_i_pin[4]		LOC = AH5;
+NET video_processing_0_ad_red_i_pin[3]		LOC = V7;
+NET video_processing_0_ad_red_i_pin[2]		LOC = W7;
+NET video_processing_0_ad_red_i_pin[1]		LOC = AF5;
+NET video_processing_0_ad_red_i_pin[0]		LOC = AG5;
+
+##GREEN
+NET video_processing_0_ad_green_i_pin[7]	LOC = AE6;
+NET video_processing_0_ad_green_i_pin[6]	LOC = AD6;
+NET video_processing_0_ad_green_i_pin[5]	LOC = Y7;
+NET video_processing_0_ad_green_i_pin[4]	LOC = AA6;
+NET video_processing_0_ad_green_i_pin[3]	LOC = AD5;
+NET video_processing_0_ad_green_i_pin[2]	LOC = AD4;
+NET video_processing_0_ad_green_i_pin[1]	LOC = Y9;
+NET video_processing_0_ad_green_i_pin[0]	LOC = Y8;
+
+##BLUE
+NET video_processing_0_ad_blue_i_pin[7]	LOC = AD7;
+NET video_processing_0_ad_blue_i_pin[6]	LOC = AC7;
+NET video_processing_0_ad_blue_i_pin[5]	LOC = AB5;
+NET video_processing_0_ad_blue_i_pin[4]	LOC = AA5;
+NET video_processing_0_ad_blue_i_pin[3]	LOC = AB7;
+NET video_processing_0_ad_blue_i_pin[2]	LOC = AB6;
+NET video_processing_0_ad_blue_i_pin[1]	LOC = AC5;
+NET video_processing_0_ad_blue_i_pin[0]	LOC = AC4;
