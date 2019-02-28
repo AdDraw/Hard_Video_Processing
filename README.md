@@ -1,4 +1,4 @@
-# Hardware Video Processing Path , 2019
+# Hardware Video Processing Path, Jan 2019
 
 This project contains an Intelectual Property(IP) that can was a part of my Final Engeenering Project at 
 Politechnika Gdanska on the major of Electronics and Telecomunications with a speciality Microelectronics.
